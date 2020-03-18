@@ -266,10 +266,9 @@ class IosPatcher(BasePlatformPatcher):
         # copy the orignal ipa to the temp directory.
         shutil.copyfile(ipa_source, self.temp_file)
 
-        print("\n\n测试1\n\n")
+        print("\n\n测试3\n\n")
 
-
-        print("\n\n测试2\n\n")
+        print("\n\n测试4\n\n")
         # this works for IPA which contains unicode characters
         with zipfile.ZipFile(self.temp_file, 'r') as ipa:
             for info in ipa.infolist():
