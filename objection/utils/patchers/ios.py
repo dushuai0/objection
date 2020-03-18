@@ -268,7 +268,7 @@ class IosPatcher(BasePlatformPatcher):
 
         print("\n\n测试1\n\n")
 
-        if (unzip_unicode):
+        if (1):
             print("\n\n测试2\n\n")
             # this works for IPA which contains unicode characters
             with zipfile.ZipFile(self.temp_file, 'r') as ipa:
